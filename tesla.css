@@ -17,7 +17,7 @@ body{
     /*background: radial-gradient(rgba(96, 187, 119, 0.623, 20%),
     rgba(127, 56, 145, 0.425, 60%),
     rgba(98, 203, 230, 0.555, 100%));*/
-    background-color: rgb(230, 237, 240);
+    background-color: rgb(18, 74, 88);
     box-shadow: 0px 0px 1px 0px gray;
     z-index: 1;
 }
@@ -109,7 +109,7 @@ li{
     width: 25px;
 }
 .pink{
-    background-color: rgba(216, 112, 147, 0.521);
+    background-color:  rgba(18, 74, 88, 0.562);
     width: 100%;
 }
 
@@ -146,8 +146,8 @@ p{
 .slideshow{
     margin: 0 auto;
     height: 160px;
-    background: radial-gradient(rgba(96, 187, 119, 0.623),
-    rgba(127, 56, 145, 0.425),
+    background: radial-gradient(rgba(190, 73, 73, 0.993),
+    rgb(18, 74, 88),
     rgba(98, 203, 230, 0.555));
     box-sizing: border-box;
     top: 0;
@@ -214,7 +214,7 @@ p{
 .shadow{
     position: absolute;
     box-shadow: 0px 0px 20px 0px #000;
-    border-radius: 4px;
+    border-radius: 50%;
 }
 .content-carrousel img{
     image-rendering: auto;
@@ -246,7 +246,7 @@ h2{
     box-shadow: 0px 0px 5px 0px #000;
     border-radius: 5px;
     margin-top: 20px;
-    background-color: white;
+    background-color: rgba(102, 137, 146, 0.651);
 }
 .image{
     margin: 30px 0 0 10px;
@@ -258,11 +258,11 @@ h2{
     margin-left: 20px;
 }
 .belowbody{
-    background-color: white;
+    background-color: rgba(102, 137, 146, 0.651);
 }
 .fine{
     text-align: center;
-    background-color: rgba(192, 141, 148, 0.842);
+    background-color: rgba(167, 128, 133, 0.486);
     font-family: Arial, Helvetica, sans-serif;
 }
 span{
@@ -288,9 +288,11 @@ figcaption{
 .showcase{
     height: 270px;
     width: 250px;
-    box-shadow: 0px 0px 6px 0px gray;
+    box-shadow: 0px 0px 6px 0px rgb(15, 13, 13);
     margin-left: auto;
     margin-right: auto;
+    border-radius: 8px;
+    background-color: rgba(172, 36, 36, 0.281);
 }
 h3{
     text-align: center;
@@ -306,6 +308,7 @@ h3{
     margin-top: 15px;
     padding: 20px;
     border-radius: 8px;
+    background-color: rgba(139, 179, 189, 0.534);
 }
 .rsource{
     display: flex;
@@ -354,6 +357,7 @@ input{
     border-radius: 5px;
     border: 0px;
     box-shadow: 0px 0px 2px 0px;
+    background-color: rgba(105, 105, 105, 0.164);
 }
 textarea{
     min-width: 90%;
@@ -364,6 +368,7 @@ textarea{
     margin-top: 10px;
     border-radius: 5px;
     box-shadow: 0px 0px 2px 0px gray;
+    background-color: rgba(105, 105, 105, 0.164);
 }
 button{
     margin: 10px 0px 0px 15px;
@@ -378,7 +383,7 @@ button{
 }
 a{
     text-decoration: none;
-    color: #4d444d;
+    color: #000;
 }
 li{
     list-style: none;
@@ -396,6 +401,21 @@ li{
 }
 hr{
     width: 90%;
+    height: 10px;
+    text-decoration: dashed;
+    border-bottom: 2px solid  rgb(18, 74, 88);
+}
+.ig{
+    color: rgb(221, 10, 45);
+    box-shadow: -5px;
+    width: 10px;
+    height: auto;
+}
+.fb{
+    color: rgba(0, 0, 255, 0.993);
+}
+.wa{
+    color: rgba(3, 158, 3, 0.712);
 }
 @media (max-width: 850px){
     .header{
